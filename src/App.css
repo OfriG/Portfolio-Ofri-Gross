@@ -420,7 +420,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 10px;
   overflow: hidden;
   width: 100%;
-  height: 400px; /* גובה אחיד לכל התמונות */
+  height: 100%; /* גובה אחיד לכל התמונות */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -428,8 +428,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .proj-imgbx img {
-  width: 100%;
-  height: 100%;
+
   object-fit: cover; /* מבטיח שהתמונה לא תתעוות אלא תחתך כך שתמלא את הקופסה */
 }
 
@@ -626,4 +625,3 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
-

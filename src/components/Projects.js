@@ -13,13 +13,13 @@ export const Projects = () => {
     {
       title: "Google Books Website",
       description: "Google Books Website",
-      imgUrl: "http://localhost:3000" + booksImg,
+      imgUrl: booksImg,
       url: "https://proj.ruppin.ac.il/cgroup76/test2/tar6/index.html"
     },
     {
       title: "Wedding Planner",
       description: "Wedding Planner system built with AWS service",
-      imgUrl: 'weddingPlan.png',
+      imgUrl: weddingPlanImg,
       url: "https://weddingplanner1.s3.us-east-1.amazonaws.com/mywebsite/index.html"
     },
     {
